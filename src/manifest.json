@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Paste raw",
+    "description": "Compose messages using raw text from the clipboard",
+    "version": "1.0",
+    "author": "Clément Mathieu--Drif",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{d5197003-4566-4b62-b49d-73831d9ef3fb}",
+            "strict_min_version": "115.0.1"
+        }
+    },
+    "permissions": [
+        "compose",
+        "clipboardRead"
+    ],
+    "compose_action": {
+        "default_title": "Paste raw"
+    },
+    "background": {
+        "scripts": [
+            "main.js"
+        ]
+    }
+}
